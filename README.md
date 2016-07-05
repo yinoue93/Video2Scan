@@ -4,7 +4,7 @@ We introduce a system which takes a video of a document to be scanned as its inp
 ## boundingbox.py
 Takes in a segmented image as an input.<br />
 Figures out the bounding box and rectifies the image.<br />
-(./imgs/222bounding.PNG)
+![Video2Scan](./imgs/222bounding.PNG)
 
 ## brightnessAdjust.py
 Takes in a rectified image as an input. <br />
