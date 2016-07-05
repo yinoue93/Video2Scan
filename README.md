@@ -9,7 +9,7 @@ Figures out the bounding box and rectifies the image.<br />
 ## brightnessAdjust.py
 Takes in a rectified image as an input. <br />
 Guesses the brightness information of the input image, and tries to remove the uneven brightness distribution.<br />
-(./imgs/brightnessAdjust.PNG)
+![Video2Scan](./imgs/brightnessAdjust.PNG)
 
 ## finalScript.py
 Automates the process of bounding box identification, image rectification, brightness identification, and Super Resolution.
@@ -27,10 +27,10 @@ Applies edge enhancement to the image.
 
 ## surf_matching.py
 Uses SURF feature points to segment a video. If consecutive frames contain a few matching features, two frames are deemed to be of different pages.<br />
-(./imgs/kp_coreespondence_correct_small.jpg)
+![Video2Scan](./imgs/kp_coreespondence_correct_small.jpg)
 
 ## Results
 Results are shown in following images. From the left, the images are: original, brightness adjusted, and super resolutioned. <br />
-(./imgs/SR222.PNG) <br />
-(./imgs/SR222_2.PNG) <br />
-(./imgs/SR555.PNG)
+![Video2Scan](./imgs/SR222.PNG) <br />
+![Video2Scan](./imgs/SR222_2.PNG) <br />
+![Video2Scan](./imgs/SR555.PNG)
